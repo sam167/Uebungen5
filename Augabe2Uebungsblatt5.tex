@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[german]{babel}
+ \date{02. November 2014}
+ \author{Samantha Novak}
+ \title{CS102 \LaTeX \, \"Ubung}
+ 
+ \begin{document}
+\maketitle
+ \section{Das ist der erste Abschitt}
+ Tiere sind eukaryotische Lebewesen, die ihre Energie nicht durch Photosynthese gewinnen und Sauerstoff zur Atmung benötigen, aber keine Pilze sind.
+ \section{Tabelle}
+ Unsere wichtigsten Daten finden Sie in Tabelle 1.
+\begin{table}[h]
+\centering
+\begin{tabular}{c|c|c|cl}
+          & Punkte erhalten & Punkte m"oglich & \%  &  \\ \cline{1-4}
+Aufgabe 1 & 7               & 6             & 0.5 &  \\
+Aufgabe 2 & 8               & 2              & 1   &  \\
+Aufgabe 3 & 4               & 2              & 1   & 
+\end{tabular}
+\caption{Diese Tabelle kann auch andere Werte beinhalten}
+\label{tab:formen}
+\end{table}
+\section{Formeln}
+\subsection{Pythagoras}
+Der Satz des Pythagoras errechnet sich wie folgt: $ a^2 + b^2 = c^2 $. Daraus k"onnen wir die L"ange der Hypothenuse wie folgt berechnen:
+$ c=\sqrt{a^{2}+b^{2}} $
+\subsection{Summen}
+Wir k"onnen auch die Formel f"ur eine Summe angeben:
+\begin{equation}
+s=\sum_{i=1}^n i = \frac{n *\ (n+1)}{2}
+\end{equation}
+ 
+ \end{document}
+
+ 
